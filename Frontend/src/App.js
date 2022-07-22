@@ -21,7 +21,7 @@ function App() {
         <form>
             <h1>heroku-deployment-react-flask</h1>
             <input type="text" id="check" /><br/><br/>
-            <button onClick={send}>Send</button>
+            <button onClick={send}>Send it</button>
             <ul>
                 {status.map(item => <li key={status.indexOf(item)}>{item.message}</li>)}
             </ul>
